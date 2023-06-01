@@ -1,0 +1,19 @@
+.each-list {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 16px;
+}
+
+.btn-sty {
+  height: 30px;
+  width: 140px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  color: #d4d2db;
+  font-weight: 500;
+  outline: none;
+}

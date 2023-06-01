@@ -1,0 +1,110 @@
+.bg-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.logo-sty {
+  background-color: #c7d2fe;
+  padding: 10px;
+  margin-right: 15px;
+  height: 78px;
+  width: 78px;
+  border-radius: 68px;
+}
+
+.initial-sty {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 22px;
+  padding-bottom: 14px;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 23px;
+  margin-left: 4px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  color: #d4d2db;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amount-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: start;
+  font-weight: bold;
+}
+
+.balance-sty {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: -8px;
+  font-weight: bold;
+}
+
+.btm-wd-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wd-pera {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #d4d2db;
+  font-weight: 400;
+}
+
+.wd-pera2 {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #585076;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
